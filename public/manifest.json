@@ -1,13 +1,13 @@
 {
-    "name": "Mecster09 Done-It",
-    "short_name": "Mec Done-It",
-    "theme_color": "#00ff00",
-    "background_color": "#ffffff",
-    "display": "browser",
-    "orientation": "any",
-    "scope": "/",
-    "start_url": "/",
-    "icons": [
+  "name": "Done It - Task Manager",
+  "short_name": "Done It",
+  "description": "A simple task management Progressive Web App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#171717",
+  "orientation": "portrait",
+  "icons": [
     {
       "src": "/icons/icon-192x192.png",
       "sizes": "192x192",
@@ -15,14 +15,10 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
       "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 } 
